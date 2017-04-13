@@ -1,4 +1,3 @@
-
 .layers>.layer {
  background:var(--main-center-color);
 }
@@ -59,7 +58,7 @@ right: initial;
     margin-left: 17px;
 }
 .friends-table {
-background: var(--main-dark-color) !important;
+background: none !important;
 }
 .channel-textarea {
 margin: 10px 0 14px;
@@ -94,7 +93,7 @@ background: none !important;
     background: var(--main-dark-color);   
 }
 .private-channels {
-    background: var(--main-dark-color);
+    background: none !important;
 }
 .private-channels:hover {
     background: var(--main-dark-color) !important;
