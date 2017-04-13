@@ -1,3 +1,10 @@
+
+.layers>.layer {
+ background:var(--main-center-color);
+}
+.typing {
+    background: var(--main-dark-color) !important;
+}
 .guilds-wrapper .guilds .guild {
 display: inline-flex;
 padding-right: 15px;
@@ -51,7 +58,7 @@ background: var(--main-dark-color);
 right: initial;
     margin-left: 17px;
 }
-.chat>.content, .friends-table {
+.friends-table {
 background: var(--main-dark-color) !important;
 }
 .channel-textarea {
@@ -68,26 +75,29 @@ button.guild.guilds-add {
 top: -17px;
 }
 .guild-channels {
-background: var(--main-center-color);
+background: none;
 }
 .messages-wrapper {
-background: var(--main-center-color) !important;
+background: none !important;
 }
 #friends .friends-header {
-    background: var(--main-center-color) !important;
+    background: none !important;
         border-bottom: 1px solid var(--main-border-color);
 }
 #friends {
-    background: var(--main-center-color) !important;
-}
-.channels-wrap, .private-channels {
-    background: var(--main-center-color);
+    background: none !important;
 }
 .search-bar {
-    background: var(--main-center-color);    
+    background: none;    
 }
 .private-channels .channel.selected {
     background: var(--main-dark-color);   
+}
+.private-channels {
+    background: var(--main-dark-color);
+}
+.private-channels:hover {
+    background: var(--main-dark-color) !important;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-thumb { 
     background-color: var(--main-dark-color) !important; 
@@ -96,16 +106,33 @@ background: var(--main-center-color) !important;
 .badge {
  margin-right: 5px;   
 }
-.theme-dark #friends .friends-table .friends-row:hover {
-    background: var(--main-center-color)
+#friends .friends-table .friends-row:hover {
+    background: none !important;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece { 
     background-color: var(--main-dark-color) !important; 
     border: 3px solid black !important; 
 }
 .account .btn {
-    background: var(--main-center-color);
+    background: var(--main-dark-color);
+    color: white;
 }
+
 .account .btn-deafen, .account .btn-settings {
     box-shadow: inset 1px 0 0 var(--main-dark-color);
+}
+.flex-spacer {
+ background: none !important;   
+}
+.chat {
+ background: none !important;   
+}
+.channels-wrap {
+    background:none !important;
+}
+.account {
+ background:none;   
+}
+.guild-inner {
+    background: var(--main-center-color) !important;
 }

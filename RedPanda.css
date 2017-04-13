@@ -1,0 +1,15 @@
+:root { 
+    --main-dark-color: #40000D;
+	--main-secondary-color: #862336;
+    --main-light-color: #D0677C;
+    --main-center-color: rgba(47, 0, 9, 0.95);
+    --main-border-color: #080002;
+    --main-tertiary-color: #835962;
+}
+.app {
+background-image: url(https://rawgit.com/MJHeijster/DiscordThemes/master/Images/redpanda.jpg);
+        background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;             
+}
+@import url("https://rawgit.com/MJHeijster/DiscordThemes/master/Shared.css");
