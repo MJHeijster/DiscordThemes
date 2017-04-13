@@ -1,0 +1,111 @@
+.guilds-wrapper .guilds .guild {
+display: inline-flex;
+padding-right: 15px;
+}
+.guilds .guild.selected:nth-child(even):before, .guilds-wrapper .guilds .guild.unread:nth-child(even):before {
+width: 5px !important;
+left: -10px !important;
+background: var(--main-secondary-color);
+
+}
+.guilds .guild.selected:nth-child(odd):before, .guilds-wrapper .guilds .guild.unread:nth-child(odd):before {
+width: 5px !important;
+left: 55px !important;
+background: var(--main-secondary-color);
+}
+.guild.selected:before {
+background: var(--main-light-color) !important;
+}
+.guilds-wrapper .scroller-wrap {
+width: 155px !important;
+}
+.guilds-wrapper {
+width: 133px !important;
+background: var(--main-dark-color);
+}
+button.guild.guilds-add {
+padding-left: 12px;
+}
+.guild-header header {
+background: var(--main-dark-color);
+}
+.guild-header header:hover {
+background: var(--main-tertiary-color);
+}
+.guild-channels .channel:hover {
+background: var(--main-dark-color);
+}
+.channel.channel-text.selected {
+background: var(--main-dark-color);
+}
+.guild-channels .channel-text.selected:before {
+border-left: 2px solid var(--main-border-color);
+}
+.account {
+background: var(--main-dark-color);
+}
+.chat>.title-wrap {
+background: var(--main-dark-color);
+}
+.guilds-wrapper .guilds .guild .badge {
+right: initial;
+    margin-left: 17px;
+}
+.chat>.content, .friends-table {
+background: var(--main-dark-color) !important;
+}
+.channel-textarea {
+margin: 10px 0 14px;
+}
+.channel-members {
+background: var(--main-dark-color) !important;
+}
+a.guilds-error {
+top: -17px !important;
+position: relative;
+}
+button.guild.guilds-add {
+top: -17px;
+}
+.guild-channels {
+background: var(--main-center-color);
+}
+.messages-wrapper {
+background: var(--main-center-color) !important;
+}
+#friends .friends-header {
+    background: var(--main-center-color) !important;
+        border-bottom: 1px solid var(--main-border-color);
+}
+#friends {
+    background: var(--main-center-color) !important;
+}
+.channels-wrap, .private-channels {
+    background: var(--main-center-color);
+}
+.search-bar {
+    background: var(--main-center-color);    
+}
+.private-channels .channel.selected {
+    background: var(--main-dark-color);   
+}
+.scroller-wrap .scroller::-webkit-scrollbar-thumb { 
+    background-color: var(--main-dark-color) !important; 
+    border: 3px solid var(--main-tertiary-color) !important; 
+}
+.badge {
+ margin-right: 5px;   
+}
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: var(--main-center-color)
+}
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece { 
+    background-color: var(--main-dark-color) !important; 
+    border: 3px solid black !important; 
+}
+.account .btn {
+    background: var(--main-center-color);
+}
+.account .btn-deafen, .account .btn-settings {
+    box-shadow: inset 1px 0 0 var(--main-dark-color);
+}
