@@ -99,7 +99,7 @@ background: none !important;
     background: none !important;
 }
 .private-channels:hover {
-    background: var(--main-dark-color) !important;
+    background: none !important;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-thumb { 
     background-color: var(--main-dark-color) !important; 
