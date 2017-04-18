@@ -143,3 +143,7 @@ background: none !important;
 .guild-inner {
     background: var(--main-center-color) !important;
 }
+
+.chat .title-wrap {
+border-bottom: 1px solid var(--main-dark-color);
+}
