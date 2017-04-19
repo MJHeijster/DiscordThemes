@@ -147,3 +147,13 @@ background: none !important;
 .chat .title-wrap {
 border-bottom: 1px solid var(--main-dark-color);
 }
+#voice-connection {
+    background: var(--main-center-color) !important;
+}
+#voice-connection .btn-group {
+    background: var(--main-center-color) !important;
+}
+
+#voice-connection .btn-disconnect {
+    box-shadow: inset 1px 0 0 var(--main-center-color) !important;
+}
