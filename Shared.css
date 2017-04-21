@@ -158,6 +158,6 @@ border-bottom: 1px solid var(--main-dark-color);
     box-shadow: inset 1px 0 0 var(--main-center-color) !important;
 }
 .invite-button {
-    background: var(--main-center-color) !important;
-    border-color: var(--main-dark-color);
+    background: var(--main-dark-color) !important;
+    border-color: var(--main-center-color);
 }
