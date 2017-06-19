@@ -161,3 +161,6 @@ border-bottom: 1px solid var(--main-dark-color);
     background: var(--main-dark-color) !important;
     border-color: var(--main-center-color);
 }
+.directionColumn-2h-LPR{
+    background:none;
+}
