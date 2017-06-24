@@ -164,3 +164,6 @@ border-bottom: 1px solid var(--main-dark-color);
 .directionColumn-2h-LPR{
     background:none;
 }
+.flexChild-1KGW5q {
+    background: var(--main-dark-color) !important;
+}
