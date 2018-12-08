@@ -12,4 +12,4 @@ background-image: url(https://rawgit.com/MJHeijster/DiscordThemes/master/Images/
     background-repeat:   no-repeat;
     background-position: center center;             
 }
-@import url("https://rawgit.com/MJHeijster/DiscordThemes/master/Shared.css");
+@import url("https://cdn.jsdelivr.net/gh/MJHeijster/DiscordThemes/Shared.css");
